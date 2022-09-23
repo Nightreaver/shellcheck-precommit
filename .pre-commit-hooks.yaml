@@ -5,3 +5,9 @@
   language: docker_image
   entry: --tty docker.io/koalaman/shellcheck:v0.8.0
   types: [shell]
+- id: shellcheck-cli
+  name: ShellCheck v0.8.0 Cli-version (if preinstalled)
+  description: Static analysis tool for shell scripts
+  language: system
+  entry: shellcheck
+  types: [shell]
