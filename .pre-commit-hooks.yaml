@@ -3,5 +3,5 @@
   name: ShellCheck v0.8.0
   description: Static analysis tool for shell scripts
   language: docker_image
-  entry: docker.io/koalaman/shellcheck:v0.8.0
+  entry: --tty docker.io/koalaman/shellcheck:v0.8.0
   types: [shell]
